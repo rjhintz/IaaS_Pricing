@@ -18,6 +18,19 @@ Vendors considered:
 * Softlayer
 * Centurylink
 
+##Pricing Sites - Linux
+###AWS
+[AWS](http://aws.amazon.com/ec2/pricing/)
+###GCE
+[GCE](https://cloud.google.com/compute/pricing)
+###Azure
+[Azure](http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#Linux)
+###Softlayer
+[Softlayer](http://www.softlayer.com/virtual-servers)
+###Centurylink
+[Centurylink](http://www.centurylink.com/business/enterprise/cloud/cloud-computing.html)
+May be opaque.
+
 ###20150802
 Use *Test-Driven Development with Python*, Harry Percivasl, O'Reilly, 2014, as a guide to do the development using functional and unit tests.
 
