@@ -38,12 +38,12 @@ echo "*.pyc" >> .gitignore
 ```
 #Get IaaS pricing from vendor web sites. 
 #Don't look like a robot.
-User agent string to identify as a human, not a bot.
+#User agent string to identify as a human, not a bot.
 
 From http://www.useragentstring.com/
-```
+
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36
-```
+
 #Go to AWS pricing site
 
 #Get pricing for current generation EC2 instances
@@ -51,13 +51,13 @@ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45
 #Store results in a useful format
 
 #Compare results, vendor to vendor and over time
+```
 
 ###20150803
 See Stack Overflow [get ec2 pricing programmatically?](http://stackoverflow.com/questions/7334035/get-ec2-pricing-programmatically)
+
 ```
 curl http://aws.amazon.com/ec2/pricing/ 2>/dev/null | grep 'model:' | sed -e "s/.*'\(.*\)'.*/http:\\1/"
 ```
 
 See also [Netflix tools](https://github.com/Netflix/ice)
-
-
